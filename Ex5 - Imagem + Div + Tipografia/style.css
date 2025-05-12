@@ -20,11 +20,22 @@
     background-color: #ffc72c;
     color: #fff;
     font-size: 1.25rem; /*1rem = 16px */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
   }
   
   .header h1{
-      font-family: 'Logo Font', cursive;
+    font-family: 'Logo Font', cursive;
   }
+
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+  }
+
   .nav-links a {
     text-decoration: none; /* retirando o sublinhado do link */
     color: #1D428A;
@@ -37,6 +48,11 @@
     background-position: center;
     height: 70vh; /* 70% da altura da tela */
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
   }
 
   .hero a{
@@ -54,6 +70,11 @@
 
   .painel{
     margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
   }
 
   .card {
@@ -64,7 +85,10 @@
     color: white;
     margin: .75rem; /* 0.75rem = 12px */
     padding: 1em;
-    text-align: center
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
   
   .card p{
